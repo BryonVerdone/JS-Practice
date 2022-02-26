@@ -135,3 +135,32 @@ function showC() {
   parA.classList.add('hidden');
   parB.classList.add('hidden');
 }
+
+function add(num1, num2) {
+  return num1 + num2;
+}
+add(35, 54);
+add(100, 757);
+add('taco ', 'cheese');
+
+// console.log(add(10, 7));
+
+// if (add(10, 32) > 30) {
+//   console.log(' the value greater than 30');
+// } else {
+//   console.log('the value is less than 30');
+// }
+
+// give element ids
+// put elements into variables
+// add event listener to btn
+const text = document.getElementById('text');
+const btn = document.getElementById('btn');
+
+btn.addEventListener('click', function () {
+  text.classList.add('taco');
+});
+
+for (let taco = 0; taco <= 10; taco++) {
+  console.log(taco);
+}
